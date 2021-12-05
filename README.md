@@ -11,7 +11,9 @@
 
 * Please keep in mind, you need to have Visual Studio Code and NodeJS installed. 
 
-```bash sudo apt-get install nodejs npm -y ```
+``` 
+bash sudo apt-get install nodejs npm -y
+```
 
 
 
@@ -20,7 +22,7 @@
 ### Create React Project with template
 
 ```bash
-        npx create-react-app my-app --template cra-template-pwa
+npx create-react-app my-app --template cra-template-pwa
 ```
     
 ### installing npm packages
@@ -28,43 +30,43 @@
   * react-router-dom ( -v 6.0.2 )
 
   ```bash
-          npm install react-router-dom@6.0.2
+npm install react-router-dom@6.0.2
   ```
 
   * @material-ui/core ( -v 4.12.3 )
 
   ```bash
-          npm install @material-ui/core@4.12.3
+npm install @material-ui/core@4.12.3
   ```
 
   * @material-ui/icons ( -v 4.11.2 )
 
   ```bash
-          npm install @material-ui/icons@4.11.2
+npm install @material-ui/icons@4.11.2
   ```
 
   * react-currency-format ( -v 1.0.0 )
 
   ```bash
-          npm install react-currency-format@1.0.0
+npm install react-currency-format@1.0.0
   ```
 
   * firebase-tools 
 
   ```bash
-          npm install firebase-tools
+npm install firebase-tools
   ```
 
   * firebase ( -v 9.5.0 )
 
   ```bash
-          npm install firebase@9.5.0
+npm install firebase@9.5.0
   ```
   
   * firebase login 
 
   ```bash
-          npm install firebase login
+npm install firebase login
   ```
 
 
@@ -72,7 +74,7 @@ Incase you face any errors,
   try again with superuser previlages :
 
   ```bash
-    sudo su
+sudo su
   ```
 
   .
@@ -83,13 +85,13 @@ Incase you face any errors,
   * remove src folder / directory
   
   ```bash
-    sudo rm -r src/
+sudo rm -r src/
   ```
   
     
 * clone git-hub repository
 ```bash
-  git clone https://github.com/pawar41/src.git
+git clone https://github.com/pawar41/src.git
 ```
 
 You are all done !!!
@@ -103,7 +105,7 @@ start npm server to test
 
 
 ```bash
-  npm start
+npm start
 ```
 
 incase your browser dosent automatically load localhost website 
@@ -117,7 +119,7 @@ incase your browser dosent automatically load localhost website
    * Try running "npm start" command with superuser preilages 
 
 ```bash
-  sudo npm start
+sudo npm start
 ```
 
 ## Acknowledgements
