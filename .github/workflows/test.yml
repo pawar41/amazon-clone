@@ -7,6 +7,13 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+<<<<<<< HEAD
     steps:
       - uses: actions/checkout@main
       - uses: ./
+=======
+    steps :
+    - uses: actions/checkout@main
+    - uses: ./
+
+>>>>>>> a465a25648ae2f5cdd76e82415eccf1462bf0664
