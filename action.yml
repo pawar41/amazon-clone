@@ -1,8 +1,9 @@
-name: 'Thank you action'
-description: 'Say "Stay hard- WORK HARD" to new pull request'
+
+name: 'Thank You Action'
+description: 'Stay hard- WORK HARD" to new pull request'
 author: 'Shantanu Pawar'
 
-input:
+inputs:
   GITHUB_TOKEN:
     description: 'GitHub token'
     required: true
