@@ -8,5 +8,5 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      -uses:  pawar41/amazon-clone@v2
-      -uses: ./
+      - uses:  actions/checkout@v2
+      - uses: ./
