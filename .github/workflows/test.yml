@@ -7,8 +7,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    steps:
-      test-al
-        - uses: actions/checkout@v2
-        - uses: ./
+    steps :
+    - uses: actions/checkout@main
+    - uses: ./
 
