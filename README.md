@@ -34,7 +34,6 @@ npm install
 ```
 
 ### You are all done !!!
-GOOD JOB !!!
 
 
 .
@@ -137,4 +136,4 @@ sudo su
   .
 
 # GAMBATTE ( WORK HARD !!!)
-TRUE
+!
