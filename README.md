@@ -19,13 +19,69 @@ bash sudo apt-get install nodejs npm -y
 
 ## Installation
 
-### Create React Project with template
+
+  
+### clone directory
+
+```bash
+git clone https://github.com/pawar41/src.git
+```
+
+### install npm dependencies
+
+```bash
+npm install
+```
+
+### You are all done !!!
+
+
+.
+## Test
+
+start npm server to test
+
+
+
+```bash
+npm start
+```
+
+incase your browser dosent automatically load localhost website 
+  
+  * open your web-browser
+  * visit :
+  ####     localhost:3000/
+
+   You should see your website now, if still not
+
+   * Try running "npm start" command with superuser preilages 
+
+```bash
+sudo npm start
+```
+
+## Acknowledgements
+
+- Project start : 21/ Nov / 2021 
+- Project end : 1/ Dec / 2021
+
+- [Written Guide](https://medium.com/cleverprogrammer/amazon-clone-using-react-the-ultimate-guide-fba2b36f3458)
+- [Video Guide](https://youtu.be/RDV3Z1KCBvo) 
+
+ - [my Github profile](https://github.com/pawar41)
+
+
+## Other info :
+
+### React Project with template used 
 
 ```bash
 npx create-react-app my-app --template cra-template-pwa
 ```
-    
-### installing npm packages
+
+  
+### npm dependencies
 
   * react-router-dom ( -v 6.0.2 )
 
@@ -79,56 +135,4 @@ sudo su
 
   .
 
-### clone directory
-
- After successful installation of all packages, next
-  * remove src folder / directory
-  
-  ```bash
-sudo rm -r src/
-  ```
-  
-    
-* clone git-hub repository
-```bash
-git clone https://github.com/pawar41/src.git
-```
-
-You are all done !!!
-
-
-.
-## Test
-
-start npm server to test
-
-
-
-```bash
-npm start
-```
-
-incase your browser dosent automatically load localhost website 
-  
-  * open your web-browser
-  * visit :
-  ####     localhost:3000/
-
-   You should see your website now, if still not
-
-   * Try running "npm start" command with superuser preilages 
-
-```bash
-sudo npm start
-```
-
-## Acknowledgements
-
-- Project start : 21/ Nov / 2021 
-- Project end : 1/ Dec / 2021
-
-- [Written Guide](https://medium.com/cleverprogrammer/amazon-clone-using-react-the-ultimate-guide-fba2b36f3458)
-- [Video Guide](https://youtu.be/RDV3Z1KCBvo) 
-
- - [my Github profile](https://github.com/pawar41)
 
