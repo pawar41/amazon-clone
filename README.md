@@ -34,7 +34,6 @@ npm install
 ```
 
 ### You are all done !!!
-GOOD JOB !!!
 
 
 .
@@ -136,4 +135,7 @@ sudo su
 
   .
 
+
 ### Ganbatte Kudasai (頑張ってください) ( WORK HARD !!!)
+
+- y
