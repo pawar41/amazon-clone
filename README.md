@@ -136,5 +136,4 @@ sudo su
 
   .
 
-# GAMBATTE ( WORK HARD !!!)
-TRUE
+# Ganbatte Kudasai (頑張ってください) ( WORK HARD !!!)
