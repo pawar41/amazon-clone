@@ -1,16 +1,10 @@
 
 name: 'Thank You Action'
-description: 'Stay hard- WORK HARD" to new pull request'
+description: 'Say "Stay hard- WORK HARD" to new pull request'
 author: 'Shantanu Pawar'
 
-inputs:
-  GITHUB_TOKEN:
-    description: 'GitHub token'
-    required: true
-  TENOR_TOKEN:
-    description: 'Tenor API token'
-    required: true
 
 runs:
   using: 'node12'
   main: 'dist/index.js'
+
