@@ -11695,13 +11695,23 @@ var __webpack_exports__ = {};
 const core = __nccwpck_require__(6024);
 const github = __nccwpck_require__(5016);
 
-async function run() {
-    console.log("Ganbatte Kudasai (頑張ってください) ( WORK HARD !!!)");
-}
-
 {/* sudo ncc build src/action.js -o dist */}
 
-run();
+
+try {
+  // `who-to-greet` input defined in action metadata file
+  const nameToGreet = core.getInput('who-to-greet');
+  console.log(`Hello ${nameToGreet}!`);
+  console.log(`Ganbatte Kudasai ${nameToGreet} (頑張ってください) ( WORK HARD ${nameToGreet} !!!)`);
+  const time = (new Date()).toTimeString();
+  core.setOutput("time", time);
+  // Get the JSON webhook payload for the event that triggered the workflow
+  const payload = JSON.stringify(github.context.payload, undefined, 2)
+  console.log(`The event payload: ${payload}`);
+} catch (error) {
+  core.setFailed(error.message);
+}
+
 })();
 
 module.exports = __webpack_exports__;
