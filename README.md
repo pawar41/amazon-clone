@@ -1,14 +1,12 @@
 
-# amazon.com Clone
+# amazon.com clone
 
-  In this project, 
-  I have made the Amazon Clone using React. 
-  I have also used Firebase for Authentication, Database, 
-  Functions and Hosting. 
-
-  Firebase is a great tool to get started with projects quickly. 
-  I have also be using HTML, CSS and React Context API.
-
+In this project,
+* I have made the Amazon Clone using React. 
+* I have also used Firebase for Authentication, Database, 
+* Functions and Hosting. 
+* Firebase is a great tool to get started with projects quickly. 
+* I am also using HTML, CSS and React Context API.
 * Please keep in mind, you need to have Visual Studio Code and NodeJS installed. 
 
 ``` 
