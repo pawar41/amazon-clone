@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: pawar41/amazon-clone@v2
+      - uses: actions/amazon-clone@v2
       - run: npm install
       - run: npm test
       - uses: ./
