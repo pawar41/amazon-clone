@@ -11696,8 +11696,10 @@ const core = __nccwpck_require__(6024);
 const github = __nccwpck_require__(5016);
 
 async function run() {
-    console.log("Stay hard- WORK HARD");
+    console.log("Ganbatte Kudasai (頑張ってください) ( WORK HARD !!!)");
 }
+
+{/* sudo ncc build src/action.js -o dist */}
 
 run();
 })();
