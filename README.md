@@ -71,6 +71,8 @@ sudo npm start
 
  - [my Github profile](https://github.com/pawar41)
 
+- my mail shantanup410@gmail.com
+
 
 ## Other info :
 
