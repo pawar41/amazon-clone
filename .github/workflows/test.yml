@@ -19,7 +19,7 @@ jobs:
       - run: pwd
       - run: ls -a
       - run: npm install
-      - run: npm test
+      - run: npm start
       - uses: ./
         with:
           who-to-greet: 'Shantanu'
