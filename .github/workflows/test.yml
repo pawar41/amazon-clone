@@ -19,7 +19,8 @@ jobs:
       - run: pwd
       - run: ls -a
       - run: npm install
-      - run: npm start
+      - run: ncc build src/action.js -o dist
+      - run: npm run-script build
       - uses: ./
         with:
           who-to-greet: 'Shantanu'
