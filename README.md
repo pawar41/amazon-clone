@@ -133,9 +133,4 @@ Incase you face any errors,
 sudo su
   ```
 
-  
-
-
 ### Ganbatte Kudasai (頑張ってください) ( WORK HARD !!!)
-
- y
