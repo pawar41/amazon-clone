@@ -11,8 +11,8 @@
 
 * Please keep in mind, you need to have Visual Studio Code and NodeJS installed. 
 
-``` 
-bash sudo apt-get install nodejs npm -y
+``` bash 
+sudo apt-get install nodejs npm -y
 ```
 
 
